@@ -33,17 +33,6 @@ p {
     overflow: hidden;
 }
 
-.net {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 180px;
-    height: 100px;
-    border: 6px solid red;
-    background: white;
-}
-
 .puck {
     position: absolute;
     width: 55px;
@@ -58,5 +47,5 @@ p {
 }
 
 .puck.shoot {
-    transform: translate(-50%, -330px);
+    transform: translate(-50%, -380px);
 }
