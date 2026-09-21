@@ -47,5 +47,5 @@ p {
 }
 
 .puck.shoot {
-    transform: translate(-50%, -380px);
+    transform: translate(-50%, -320px);
 }
