@@ -11,13 +11,12 @@
 
     <div class="game">
         <h1>Puck Shot</h1>
-
-        <p>Tap the puck to shoot!</p>
+        <p>Click the puck to shoot!</p>
 
         <div class="rink">
             <div class="net"></div>
 
-            <img src="ice.jpg" alt="Hockey puck" class="puck" onclick="shootPuck()">
+            <div class="puck" onclick="shootPuck()"></div>
         </div>
     </div>
 
@@ -27,7 +26,7 @@
 
             puck.classList.add("shoot");
 
-            setTimeout(() => {
+            setTimeout(function() {
                 puck.classList.remove("shoot");
             }, 500);
         }
