@@ -9,7 +9,7 @@ body {
 }
 
 .game {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 h1 {
@@ -46,7 +46,10 @@ p {
 
 .puck {
     position: absolute;
-    width: 70px;
+    width: 55px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
